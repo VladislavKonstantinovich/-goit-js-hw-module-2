@@ -6,7 +6,7 @@ let salaries = {
 
 let sum = Object.values(salaries);
 let sumi = 0;
-for(var i=0;i<sum.length;i++){
+for(var i=0;i <= sum.length - 1;i++){
     sumi = sumi + parseInt(sum[i]);
 }
 

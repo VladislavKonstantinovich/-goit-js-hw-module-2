@@ -4,15 +4,15 @@ let salaries = {
     Misha: 2,
 }
 
-let sum = Object.values(salaries);
-let sumi = 0;
-for(var i=0;i <= sum.length - 1;i++){
-    sumi = sumi + parseInt(sum[i]);
+let array = Object.values(salaries);
+let sum = 0;
+for(var i=0;i <= array.length - 1;i++){
+    sum = sum + (array[i]);
 }
 
 if (Object.keys(salaries).length === 0) {
-    sumi = 0;
-    alert(sumi);
+    sum = 0;
+    alert(sum);
 } else {
-    alert(sumi);
+    alert(sum);
 }
